@@ -7,10 +7,11 @@ export const Route = createFileRoute('/')({
 
 function App() {
   return (
-    <div className='flex h-screen w-screen items-center justify-center bg-gray-100'>
-      <div>
+    <div className='flex h-screen w-screen justify-center bg-slate-950'>
+      <div className='text-white mt-50'>
         <h1 className='text-6xl font-bold text-center'>Job Seeker</h1>
-        <p className='mt-4 text-center text-gray-600'>Land your dream job</p>
+        <p className='mt-4 text-center'>Land your dream job</p>
+        <button>Get Started</button>
       </div>
     </div>
   )

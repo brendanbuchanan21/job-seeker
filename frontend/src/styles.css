@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+@theme {
+  --color-brand: #32de84; /* custom brand color */
+  --breakpoint-desktop: 1024px; /* custom breakpoint */
+  --font-heading: "Poppins", sans-serif;
+}
+
+
 body {
   @apply m-0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
